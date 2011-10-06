@@ -1,0 +1,17 @@
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\Me.Web.Mvc.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\Me.Web.Mvc.pdb
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\obj\Debug\Me.Web.Mvc.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\obj\Debug\Me.Web.Mvc.pdb
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\Elmah.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\EntityFramework.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\log4net.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MvcMiniProfiler.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\EntityFramework.xml
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\log4net.xml
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MvcMiniProfiler.pdb
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MvcMiniProfiler.xml
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\AutoMapper.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MarkdownSharp.dll
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MarkdownSharp.pdb
+C:\Users\dwick\Documents\visual studio 2010\Projects\Me\Me.Web.Mvc\bin\MarkdownSharp.xml
+C:\Users\dwick\Documents\Visual Studio 2010\Projects\Me\Me.Web.Mvc\obj\Debug\Me.Web.Mvc.csprojResolveAssemblyReference.cache

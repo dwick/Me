@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="794BE66F-5ED8-40A5-8413-ED7D4199B099" ModuleId="Me.Web.Mvc" />
+  <Module PersistentId="09E46AB6-1258-4155-9409-F59EBD10DAB8" ModuleId="Me.Domain" />
+</Modules>
