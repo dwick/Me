@@ -8,8 +8,9 @@
     using Infrastructure.EntityFramework;
 
     #endregion
-
+#if !DEBUG
     [RemoveHtmlWhitespace]
+#endif
     public class AbstractController : Controller
     {
     }

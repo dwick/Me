@@ -1,4 +1,6 @@
-﻿namespace Me.Web.Mvc
+﻿using System;
+
+namespace Me.Web.Mvc
 {
     #region using
 
@@ -58,7 +60,7 @@
 
         protected void Application_BeginRequest()
         {
-            if (Request.IsLocal) { MiniProfiler.Start(); }
+            if (IsDev(Request.Url.Host) || Request.IsLocal) { MiniProfiler.Start(); }
         }
 
         protected void Application_EndRequest()
@@ -66,5 +68,9 @@
             MiniProfiler.Stop();
         }
 
+        private static bool IsDev(string host)
+        {
+            return host.Split('.').Length > 1 && host.Substring(0, host.IndexOf(".")).Equals("dev", StringComparison.OrdinalIgnoreCase);
+        }
     }
 }
