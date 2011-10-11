@@ -1,63 +1,61 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:Tag.cs" caret="0" fromTop="0" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Common/f:RouteCollectionExtension.cs" caret="0" fromTop="0" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:Mapping/d:Resolvers/f:MarkdownResolver.cs" caret="0" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:ViewModels/f:LoginInput.cs" caret="216" fromTop="8" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="6771" fromTop="15" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/d:DomainModel/f:IEntityWithAudit.cs" caret="240" fromTop="7" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/d:Configuration/f:UserConfiguration.cs" caret="842" fromTop="18" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/d:DomainModel/f:Aggregate.cs" caret="282" fromTop="8" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/d:DomainModel/f:IEntityWithTypedId.cs" caret="0" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:Post.cs" caret="156" fromTop="10" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="1959" fromTop="66" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/f:Web.config" caret="1784" fromTop="35" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="869" fromTop="26" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Db.cs" caret="1524" fromTop="38" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Web.config" caret="1811" fromTop="32" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Commands/f:SendEmailCommand.cs" caret="2449" fromTop="27" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="578" fromTop="16" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:PostController.cs" caret="0" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Post/f:Index.cshtml" caret="55" fromTop="5" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Global.asax.cs" caret="1393" fromTop="33" />
-      <File id="5C15D64A-3F8A-435D-BEB7-48C84A81AC25/f:^TransientScriptDocument12.js" caret="2345" fromTop="12" />
       <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Helpers/d:Attributes/f:RemoveHtmlWhitespace.cs" caret="490" fromTop="18" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Login/f:Login.cshtml" caret="224" fromTop="9" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="15" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:AbstractController.cs" caret="329" fromTop="10" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Commands/f:SendEmailCommand.cs" caret="0" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:robots.txt" caret="0" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:humans.txt" caret="62" fromTop="2" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="317" fromTop="9" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Db.cs" caret="219" fromTop="10" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:ViewModels/f:ContactViewModel.cs" caret="1" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:HomeController.cs" caret="37" fromTop="2" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/f:plugins.js" caret="0" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Web.config" caret="0" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/d:libs/f:modernizr-2.0.6.min.js" caret="0" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:AbstractController.cs" caret="294" fromTop="10" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/f:script.js" caret="288" fromTop="18" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="2287" fromTop="43" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Home/f:Index.cshtml" caret="857" fromTop="15" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Global.asax.cs" caret="1395" fromTop="33" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="13200" fromTop="41" />
     </RecentFiles>
     <RecentEdits>
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="905" fromTop="26" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="184" fromTop="13" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="166" fromTop="9" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="141" fromTop="9" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="0" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Controllers/f:LoginController.cs" caret="405" fromTop="10" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="143" fromTop="10" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="591" fromTop="15" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="433" fromTop="9" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="333" fromTop="7" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="141" fromTop="7" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="0" fromTop="0" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Db.cs" caret="403" fromTop="8" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/d:DomainModel/f:Aggregate.cs" caret="282" fromTop="8" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="796" fromTop="21" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="379" fromTop="10" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="711" fromTop="18" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/f:Seeder.cs" caret="226" fromTop="4" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Infrastructure/d:EntityFramework/d:Configuration/f:UserConfiguration.cs" caret="842" fromTop="18" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="649" fromTop="16" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="1451" fromTop="35" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Models/f:User.cs" caret="1053" fromTop="17" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Global.asax.cs" caret="320" fromTop="6" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="717" fromTop="15" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Helpers/d:Attributes/f:RemoveHtmlWhitespace.cs" caret="663" fromTop="22" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Helpers/d:Attributes/f:RemoveHtmlWhitespace.cs" caret="490" fromTop="18" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Global.asax.cs" caret="1256" fromTop="33" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/f:Global.asax.cs" caret="1558" fromTop="43" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="726" fromTop="15" />
-      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="15" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="1619" fromTop="27" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="2030" fromTop="37" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="73" fromTop="0" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/f:script.js" caret="266" fromTop="9" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Home/f:Index.cshtml" caret="857" fromTop="15" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Views/d:Shared/f:_Layout.cshtml" caret="1507" fromTop="25" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="10953" fromTop="23" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12853" fromTop="38" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12726" fromTop="49" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12726" fromTop="44" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12726" fromTop="41" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12726" fromTop="41" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12726" fromTop="41" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12222" fromTop="16" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12853" fromTop="42" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12854" fromTop="41" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12497" fromTop="27" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12304" fromTop="20" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12460" fromTop="28" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12538" fromTop="32" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12322" fromTop="21" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="11693" fromTop="20" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="11163" fromTop="15" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12218" fromTop="4" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/f:script.js" caret="66" fromTop="5" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12747" fromTop="33" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:js/f:script.js" caret="204" fromTop="7" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="12687" fromTop="22" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="13476" fromTop="42" />
+      <File id="794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css/f:style.css" caret="13200" fromTop="38" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -89,12 +87,12 @@
     </ItemStatistics>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="Url" priority="32" />
-      <Item value="#endregion" priority="651" />
+      <Item value="#endregion" priority="682" />
       <Item value="if" priority="127" />
-      <Item value="#if" priority="63" />
+      <Item value="#if" priority="94" />
       <Item value="#else" priority="31" />
       <Item value="Check`0" priority="63" />
-      <Item value="string" priority="318" />
+      <Item value="string" priority="381" />
       <Item value="interface" priority="61" />
       <Item value="T`0" priority="31" />
       <Item value="public" priority="411" />
@@ -122,7 +120,7 @@
       <Item value="GetHashCode`0" priority="31" />
       <Item value="HashSet" priority="31" />
       <Item value="Entity`0" priority="31" />
-      <Item value="prop" priority="63" />
+      <Item value="prop" priority="95" />
       <Item value="section" priority="29" />
       <Item value="RenderSection`0" priority="59" />
       <Item value="using" priority="61" />
@@ -159,9 +157,33 @@
       <Item value="Set`0" priority="31" />
       <Item value="Database" priority="62" />
       <Item value="#endif" priority="31" />
+      <Item value="position" priority="31" />
+      <Item value="MvcMiniProfiler" priority="31" />
+      <Item value="RenderPosition`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="HtmlCodeCompletionContext">
       <Item value="p" priority="11" />
+      <Item value="div" priority="40" />
+      <Item value="id" priority="5" />
+      <Item value="nav" priority="5" />
+      <Item value="ul" priority="5" />
+      <Item value="li" priority="17" />
+      <Item value="a" priority="5" />
+      <Item value="href" priority="6" />
+      <Item value="_Layout.cshtml" priority="5" />
+      <Item value="b" priority="5" />
+      <Item value="class" priority="37" />
+      <Item value="push_4" priority="5" />
+      <Item value="target" priority="5" />
+      <Item value="&amp;quot;" priority="0" />
+      <Item value="grid_4" priority="11" />
+      <Item value="grid_1" priority="5" />
+      <Item value="itemprop" priority="5" />
+      <Item value="clearfix" priority="5" />
+      <Item value="grid_5" priority="5" />
+      <Item value="s" priority="5" />
+      <Item value="external" priority="5" />
+      <Item value="firs" priority="6" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Me.Web.Mvc.Common.Check">
       <Item value="IsNotNull`0" priority="53" />
@@ -258,5 +280,109 @@
     <ItemStatistics item="Qualified:System.Data.Entity.Database">
       <Item value="SetInitializer`1" priority="26" />
     </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="address" priority="5" />
+      <Item value="text-decoration" priority="11" />
+      <Item value="font-style" priority="11" />
+      <Item value="contact" priority="4" />
+      <Item value="resume" priority="24" />
+      <Item value="header" priority="37" />
+      <Item value="h1" priority="17" />
+      <Item value="float" priority="35" />
+      <Item value="text-align" priority="5" />
+      <Item value="font-size" priority="35" />
+      <Item value="line-height" priority="23" />
+      <Item value="margin" priority="35" />
+      <Item value="nav" priority="29" />
+      <Item value="ul" priority="17" />
+      <Item value="li" priority="17" />
+      <Item value="margin-left" priority="5" />
+      <Item value="background" priority="23" />
+      <Item value="code" priority="11" />
+      <Item value="container_12" priority="14" />
+      <Item value="before" priority="9" />
+      <Item value="after" priority="9" />
+      <Item value="social" priority="19" />
+      <Item value="transparent" priority="12" />
+      <Item value="no-repeat" priority="6" />
+      <Item value="height" priority="5" />
+      <Item value="twitter" priority="4" />
+      <Item value="background-position" priority="5" />
+      <Item value="stackoverflow" priority="5" />
+      <Item value="linkedin" priority="5" />
+      <Item value="abbr" priority="11" />
+      <Item value="text-indent" priority="5" />
+      <Item value="acronym" priority="5" />
+      <Item value="display" priority="35" />
+      <Item value="margin-bottom" priority="5" />
+      <Item value="opacity" priority="17" />
+      <Item value="a" priority="17" />
+      <Item value="hover" priority="15" />
+      <Item value="focus" priority="4" />
+      <Item value="section" priority="17" />
+      <Item value="itemprop" priority="29" />
+      <Item value="inline" priority="5" />
+      <Item value="blockquote" priority="47" />
+      <Item value="position" priority="35" />
+      <Item value="top" priority="11" />
+      <Item value="left" priority="5" />
+      <Item value="padding" priority="23" />
+      <Item value="font-family" priority="11" />
+      <Item value="sans-serif" priority="13" />
+      <Item value="p" priority="17" />
+      <Item value="absolute" priority="18" />
+      <Item value="min-height" priority="5" />
+      <Item value="inline-block" priority="6" />
+      <Item value="-moz-background-origin" priority="11" />
+      <Item value="h2" priority="5" />
+      <Item value="h3" priority="5" />
+      <Item value="h4" priority="5" />
+      <Item value="h5" priority="5" />
+      <Item value="h6" priority="5" />
+      <Item value="div" priority="5" />
+      <Item value="right" priority="5" />
+      <Item value="border" priority="11" />
+      <Item value="first-child" priority="4" />
+      <Item value="list-style-type" priority="5" />
+      <Item value="disc" priority="6" />
+      <Item value="normal" priority="5" />
+      <Item value="color" priority="11" />
+      <Item value="time" priority="5" />
+      <Item value="italic" priority="5" />
+      <Item value="width" priority="29" />
+      <Item value="col" priority="4" />
+      <Item value="body" priority="5" />
+      <Item value="static" priority="5" />
+      <Item value="content" priority="5" />
+      <Item value="clear" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;quot;" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="Modernizr" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="if" priority="10" />
+      <Item value="function" priority="21" />
+      <Item value="touchSupport" priority="10" />
+      <Item value="window" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Url" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparison">
+      <Item value="OrdinalIgnoreCase" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="Host" priority="27" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
+  <UnitTestRunnerQUnit>
+    <BrowserLocation IsNull="False">
+    </BrowserLocation>
+  </UnitTestRunnerQUnit>
 </Configuration>

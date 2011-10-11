@@ -338,6 +338,7 @@ nav ul { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 #header {padding: 4px 0; background: #F1F8FF;border-bottom: 1px solid #eee; margin-bottom: 20px;}
 #header nav li { float: right; margin-left: 20px; }
 .social a {
+    position: relative;
     display: block; 
     text-indent: -3000px; 
     white-space: nowrap;  
@@ -345,24 +346,109 @@ nav ul { list-style: none; list-style-image: none; margin: 0; padding: 0; }
     height: 24px; 
     background: transparent url(images/social.png) no-repeat;
 }
-.no-touch .social a {
-     opacity: .5;
-    -webkit-transition:opacity 1s ease; 
-    -moz-transition:opacity 1s ease; 
-    -o-transition:opacity 1s ease; 
-    transition:opacity 1s ease;
+@-webkit-keyframes bounce {
+    0% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    17% {
+      top: 15px;
+      animation-timing-function: ease-in;
+    }
+    34% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    51% {
+      top: 8px;
+      animation-timing-function: ease-in;
+    }
+    68% {
+      top: 0px;
+      animation-timing-function: ease-out;
+    }
+    85% {
+      top: 3px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      top: 0;
+    }
 }
-.no-touch .social a:hover, .social a:focus { opacity: 1 }
-.stackoverflow a { background-position: 0 0; }
-.twitter a { background-position: -24px 0; }
-.linkedin a { background-position: -48px 0; }
+@-moz-keyframes bounce {
+    0% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    17% {
+      top: 15px;
+      animation-timing-function: ease-in;
+    }
+    34% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    51% {
+      top: 8px;
+      animation-timing-function: ease-in;
+    }
+    68% {
+      top: 0px;
+      animation-timing-function: ease-out;
+    }
+    85% {
+      top: 3px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      top: 0;
+    }
+}
+@keyframes bounce {
+    0% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    17% {
+      top: 15px;
+      animation-timing-function: ease-in;
+    }
+    34% {
+      top: 0;
+      animation-timing-function: ease-out;
+    }
+    51% {
+      top: 8px;
+      animation-timing-function: ease-in;
+    }
+    68% {
+      top: 0px;
+      animation-timing-function: ease-out;
+    }
+    85% {
+      top: 3px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      top: 0;
+    }
+}
+.no-touch .social.animated a { 
+    -moz-animation: bounce 1s;
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+.email a { background-position: 0 0; }
+.stackoverflow a { background-position: -24px 0; }
+.twitter a { background-position: -48px 0; }
+.linkedin a { background-position: -72px 0; }
 #resume > header h1 { float: left; font-size: 5em; }
 #resume > section { margin: 10px 0;padding: 10px 0; }
-#resume > section > header > h1 { font-size: 3em;}
+#resume > section > header > h1 { font-size: 3em; }
 #resume header[itemprop="summary"] h1 { font-size: 1.6em; }
-#resume header[itemprop="summary"] h2 { font-size: 1.2em;}
-#resume li[itemprop="vevent"] { position: relative;}
-#resume header[itemprop="summary"] div[itemprop="duration"] { position: absolute;top:0;right:0;}
+#resume header[itemprop="summary"] h2 { font-size: 1.2em; }
+#resume li[itemprop="vevent"] { position: relative; }
+#resume header[itemprop="summary"] div[itemprop="duration"] { position: absolute;top:0;right:0; }
 #contact { text-align: right; }
 
 @media only screen and (max-width: 959px) {

@@ -1,0 +1,7 @@
+<Configuration>
+  <Daemon.SolutionSettings>
+    <SkipFilesAndFolders>
+      <Item>794BE66F-5ED8-40A5-8413-ED7D4199B099/d:Content/d:css</Item>
+    </SkipFilesAndFolders>
+  </Daemon.SolutionSettings>
+</Configuration>
