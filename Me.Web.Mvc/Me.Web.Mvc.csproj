@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="Commands\SendEmailCommand.cs" />
     <Compile Include="Common\Check.cs" />
+    <Compile Include="Common\RequestExtensions.cs" />
     <Compile Include="Common\RouteCollectionExtension.cs" />
     <Compile Include="Common\LowercaseRoute.cs" />
     <Compile Include="Controllers\AbstractController.cs" />
@@ -112,6 +113,7 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\images\ajax-loader.png" />
     <Content Include="Content\css\images\social.png" />
+    <Content Include="Content\fonts\BEBAS___-webfont.svg" />
     <Content Include="Content\js\libs\jquery-1.6.2.min.js" />
     <Content Include="Content\js\libs\modernizr-2.0.6.min.js" />
     <Content Include="Content\js\plugins.js" />
@@ -135,6 +137,9 @@
     <Content Include="Views\MailTemplates\_Layout.cshtml" />
     <Content Include="Views\MailTemplates\Test.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <None Include="Content\fonts\BEBAS___-webfont.eot" />
+    <None Include="Content\fonts\BEBAS___-webfont.ttf" />
+    <None Include="Content\fonts\BEBAS___-webfont.woff" />
     <None Include="_bin_deployableAssemblies\System.Web.Mvc.dll" />
     <None Include="_bin_deployableAssemblies\WebMatrix.WebData.xml" />
     <None Include="_bin_deployableAssemblies\WebMatrix.WebData.dll" />

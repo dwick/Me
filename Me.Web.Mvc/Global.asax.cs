@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Me.Web.Mvc
+﻿namespace Me.Web.Mvc
 {
     #region using
 
@@ -8,7 +6,7 @@ namespace Me.Web.Mvc
     using System.Web.Mvc;
     using System.Web.Routing;
     using System.Diagnostics;
-    
+
     using Elmah;
     using MvcMiniProfiler;
     using MvcMiniProfiler.MVCHelpers;
@@ -31,7 +29,7 @@ namespace Me.Web.Mvc
 
             routes.MapRouteLowerCase(
                 "Default",
-                "{controller}/{action}/{id}", 
+                "{controller}/{action}/{id}",
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
@@ -60,17 +58,12 @@ namespace Me.Web.Mvc
 
         protected void Application_BeginRequest()
         {
-            if (IsDev(Request.Url.Host) || Request.IsLocal) { MiniProfiler.Start(); }
+            if (Request.IsDev() || Request.IsLocal) { MiniProfiler.Start(); }
         }
 
         protected void Application_EndRequest()
         {
             MiniProfiler.Stop();
-        }
-
-        private static bool IsDev(string host)
-        {
-            return host.Split('.').Length > 1 && host.Substring(0, host.IndexOf(".")).Equals("dev", StringComparison.OrdinalIgnoreCase);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿<!-- source: https://github.com/dwick/Me dev: http://dev.davidwick.me -->
+@using Me.Web.Mvc.Common
 @using MvcMiniProfiler
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -16,15 +17,46 @@
 	<script src="@Url.Content("~/Content/js/libs/modernizr-2.0.6.min.js")"></script>
 </head>
 <body>
+    @if(HttpContext.Current.Request.IsDev() || Request.IsLocal)
+    {
+        <button id="grid-toggle">Show grid</button>
+        <div class="container">
+            <div id="grid-helper">
+                <div class="container">
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                    <div class="col one"></div>
+                </div>
+            </div>
+        </div>
+    }
     <header id="header" role="banner">
-        <nav role="navigation">
-            <ul class="container">
-                <li class="social linkedin"><a href="http://linkedin.com/in/dwick" target="_blank">Linkedin</a></li>
-                <li class="social twitter"><a href="http://twitter.com/davidwick_" target="_blank">Twitter</a></li>
-                <li class="social stackoverflow"><a href="http://careers.stackoverflow.com/davidwick" target="_blank">stack<b>overflow</b></a></li>
-                <li class="social email"><a href="#">E-mail</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav role="navigation">
+                <ul>
+                    <li class="social linkedin"><a href="http://linkedin.com/in/dwick" target="_blank" title="David on Linkedin">Linkedin</a></li>
+                    <li class="social twitter"><a href="http://twitter.com/davidwick_" target="_blank" title="David on Twitter">Twitter</a></li>
+                    <li class="social facebook"><a href="https://www.facebook.com/davidwick" target="_blank" title="David on Facebook">stack<b>overflow</b></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div id="main" role="main">
         <div class="container">

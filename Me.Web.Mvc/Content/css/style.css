@@ -219,54 +219,91 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* =============================================================================
-   Grid
+/* ==|== full size ==========================================================
+   960px grid
    ========================================================================== */
-
-.container { position: relative; width: 960px; margin-left:auto; margin-right:auto; padding: 0; }
-
-.col { float: left;margin: 0 10px;}
-
-.first { margin-left:0; }
-.last { margin-right:0; }
-
-.col.one { width: 60px; }
-.col.two { width: 140px; }
-.col.three { width: 220px; }
-.col.four { width: 300px; }
-.col.five { width: 380px; }
-.col.six { width: 460px; }
-.col.seven { width: 540px; }
-.col.eight { width: 620px; }
-.col.nine { width: 700px; }
-.col.ten { width: 780px; }
-.col.eleven { width: 860px; }
-.col.twelve { width: 940px; }
-
-/* portrait tablet */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-	.container { width: 768px; }
-	
-	.col.one { width: 44px; }
-    .col.two { width: 108px; }
-    .col.three { width: 172px; }
-    .col.four { width: 236px; }
-    .col.five { width: 300px; }
-    .col.six { width: 364px; }
-    .col.seven { width: 428px; }
-    .col.eight { width: 492px; }
-    .col.nine { width: 556px; }
-    .col.ten { width: 620px; }
-    .col.eleven { width: 684px; }
-    .col.twelve { width: 748px; }
+   
+#grid-helper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+#grid-helper .col { 
+    background:hsla(347, 88%, 52%, .2);
 }
 
-/* portrait phone */
+#grid-toggle { position: absolute;top: 5px;left: 5px;}
+
+.container { position: relative; width: 980px; margin-left:auto; margin-right:auto; padding: 0; }
+
+.col { float: left;margin: 0 10px; }
+
+.container .col:first-child { margin-left:0; }
+.container .col:last-child { margin-right:0; }
+
+.col.one        { width: 30px; }
+.col.two        { width: 80px; }
+.col.three      { width: 130px; }
+.col.four       { width: 180px; }
+.col.five       { width: 230px; }
+.col.six        { width: 280px; }
+.col.seven      { width: 330px; }
+.col.eight      { width: 380px; }
+.col.nine       { width: 430px; }
+.col.ten        { width: 480px; }
+.col.eleven     { width: 530px; }
+.col.twelve     { width: 580px; }
+.col.thirteen   { width: 630px; }
+.col.fourteen   { width: 680px; }
+.col.fifteen    { width: 730px; }
+.col.sixteen    { width: 780px; }
+.col.seventeen  { width: 830px; }
+.col.eighteen   { width: 880px; }
+.col.nineteen   { width: 930px; }
+.col.twenty     { width: 910px; }
+
+/* ==|== tablets  ===========================================================
+   768px-959px
+   ========================================================================== */
+   
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container { width: 750px; }
+    
+    .col { margin: 0 5px; }
+    
+    .col.one        { width: 28px; }
+    .col.two        { width: 66px; }
+    .col.three      { width: 104px; }
+    .col.four       { width: 142px; }
+    .col.five       { width: 180px; }
+    .col.six        { width: 218px; }
+    .col.seven      { width: 256px; }
+    .col.eight      { width: 294px; }
+    .col.nine       { width: 332px; }
+    .col.ten        { width: 370px; }
+    .col.eleven     { width: 408px; }
+    .col.twelve     { width: 446px; }
+    .col.thirteen   { width: 484px; }
+    .col.fourteen   { width: 522px; }
+    .col.fifteen    { width: 560px; }
+    .col.sixteen    { width: 598px; }
+    .col.seventeen  { width: 636px; }
+    .col.eighteen   { width: 674px; }
+    .col.nineteen   { width: 712px; }
+    .col.twenty     { width: 740px; }
+}
+
+/* ==|== portrait ===========================================================
+   320px
+   ========================================================================== */
+   
 @media only screen and (max-width: 767px) {
 	.container { width: 300px; }
-	
+
 	.col { margin: 0; }
-	
+
 	.col.one,
     .col.two,
     .col.three,
@@ -278,15 +315,26 @@ table { border-collapse: collapse; border-spacing: 0; }
     .col.nine,
     .col.ten,
     .col.eleven,
-    .col.twelve { width: 300px; } 
+    .col.twelve,
+    .col.thirteen,
+    .col.fourteen,
+    .col.fifteen,
+    .col.sixteen, 
+    .col.seventeen,
+    .col.eighteen,
+    .col.nineteen,
+    .col.twenty { width: 300px; } 
 }
 
-/* landscape phone */
+/* ==|== landscape ==========================================================
+   480px
+   ========================================================================== */
+   
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container { width: 420px; }
-	
+
 	.col { margin: 0; }
-	
+
 	.col.one,
     .col.two,
     .col.three,
@@ -298,7 +346,15 @@ table { border-collapse: collapse; border-spacing: 0; }
     .col.nine,
     .col.ten,
     .col.eleven,
-    .col.twelve { width: 420px; } 
+    .col.twelve,
+    .col.thirteen,
+    .col.fourteen,
+    .col.fifteen,
+    .col.sixteen, 
+    .col.seventeen,
+    .col.eighteen,
+    .col.nineteen,
+    .col.twenty { width: 420px; } 
 }
 
 
@@ -439,9 +495,9 @@ nav ul { list-style: none; list-style-image: none; margin: 0; padding: 0; }
     animation: bounce 1s;
 }
 .email a { background-position: 0 0; }
-.stackoverflow a { background-position: -24px 0; }
-.twitter a { background-position: -48px 0; }
-.linkedin a { background-position: -72px 0; }
+.facebook a { background-position: -24px 0; }
+.linkedin a { background-position: -48px 0; }
+.twitter a { background-position: -72px 0; }
 #resume > header h1 { float: left; font-size: 5em; }
 #resume > section { margin: 10px 0;padding: 10px 0; }
 #resume > section > header > h1 { font-size: 3em; }
@@ -451,7 +507,7 @@ nav ul { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 #resume header[itemprop="summary"] div[itemprop="duration"] { position: absolute;top:0;right:0; }
 #contact { text-align: right; }
 
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 1023px) {
     #resume > section > header > h1 { font-size: 2.5em; }
     h1 small { display: block; }
     blockquote[itemprop="summary"] {
