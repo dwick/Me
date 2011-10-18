@@ -22,5 +22,4 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 
-# Folders to ignore
-_ReSharper.*
+*ReSharper*
