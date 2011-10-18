@@ -220,7 +220,7 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* ==|== full size ==========================================================
-   960px grid
+   980px grid
    ========================================================================== */
    
 #grid-helper {
@@ -265,7 +265,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 .col.twenty     { width: 910px; }
 
 /* ==|== tablets  ===========================================================
-   768px-959px
+   768px-1023px
    ========================================================================== */
    
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -302,28 +302,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 @media only screen and (max-width: 767px) {
 	.container { width: 300px; }
 
-	.col { margin: 0; }
-
-	.col.one,
-    .col.two,
-    .col.three,
-    .col.four,
-    .col.five,
-    .col.six,
-    .col.seven,
-    .col.eight,
-    .col.nine,
-    .col.ten,
-    .col.eleven,
-    .col.twelve,
-    .col.thirteen,
-    .col.fourteen,
-    .col.fifteen,
-    .col.sixteen, 
-    .col.seventeen,
-    .col.eighteen,
-    .col.nineteen,
-    .col.twenty { width: 300px; } 
+	.col { margin: 0; width: 320px!important; }
 }
 
 /* ==|== landscape ==========================================================
@@ -333,28 +312,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container { width: 420px; }
 
-	.col { margin: 0; }
-
-	.col.one,
-    .col.two,
-    .col.three,
-    .col.four,
-    .col.five,
-    .col.six,
-    .col.seven,
-    .col.eight,
-    .col.nine,
-    .col.ten,
-    .col.eleven,
-    .col.twelve,
-    .col.thirteen,
-    .col.fourteen,
-    .col.fifteen,
-    .col.sixteen, 
-    .col.seventeen,
-    .col.eighteen,
-    .col.nineteen,
-    .col.twenty { width: 420px; } 
+	.col { margin: 0; width: 420px!important; }
 }
 
 
